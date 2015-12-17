@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/BG">
+    <ImageView
+        android:id="@+id/facebook_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/FB_icon"
+        android:paddingBottom="10dp" />
+    <Button
+        android:id="@+id/loginbutton"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="Login"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/facebook_image"
+        android:background="@drawable/LoginButton"
+        android:textColor="#FFFFFF" />
+</RelativeLayout>
